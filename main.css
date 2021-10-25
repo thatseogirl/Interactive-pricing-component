@@ -1,0 +1,349 @@
+body {
+    background-image: url(./images/bg-pattern.svg);
+    background-repeat: no-repeat;
+    font-family: 'Manrope', sans-serif;
+    text-align: center;
+}
+.main-container {
+    background-color: hsl(230, 100%, 99%);
+    position: relative;
+    margin: 0 auto;
+    width: 550px;
+    height: 360px;
+    top: 70px;
+}
+#header {
+    background-image: url(./images/pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    margin-top: 40px;
+    
+}
+.simple {
+    font-family: 'Manrope', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: hsl(227, 35%, 25%);
+    line-height: none;
+    margin-bottom: 0;
+}
+.sign {
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(225, 20%, 60%);
+    line-height: none;
+    margin-top: 10px;
+}
+
+.slidecontainer {
+    width: 100%;
+    position: relative;
+    bottom: 50px;
+    left: 50px;
+  }
+  
+.slider {
+    -webkit-appearance: none;
+    width: 80%;
+    height: 10px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+.slider:hover {
+    opacity: 1;
+  }
+  
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 30px;
+    border-radius: 50%;
+    background: hsl(174, 86%, 45%);
+    background-image:url(./images/icon-slider.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+  
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 30px;
+    border-radius: 50%;
+    background: hsl(174, 86%, 45%);
+    cursor: pointer;
+  }
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.round {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: hsl(224, 65%, 95%);
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.round:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .round {
+  background-color: hsl(174, 77%, 80%);
+}
+
+input:focus + .round {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .round:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.round {
+  border-radius: 34px;
+}
+.round:before {
+  border-radius: 50%;
+}
+
+.page {
+    text-align: left;
+    position: relative;
+    top: 50px;
+    left: 40px;
+    color: hsl(225, 20%, 60%);
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    font-weight: 600px;
+    letter-spacing: 4px;
+}
+
+.dollar {
+    text-align: right;
+    position: relative;
+    right: 100px;
+    bottom: 25px;
+    color:hsl(227, 35%, 25%);
+    font-family: 'Manrope', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    word-spacing: 3px;
+}
+.month {
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    color:  hsl(225, 20%, 60%);
+    position: relative;
+    bottom: 105px;
+    left: 206px;
+}
+
+.slider {
+    border-radius: 10px;
+    border-width: 200px;
+    max-height: 100px;
+    box-sizing: border-box;
+    display: block;
+}
+img {
+    border-radius: 50%;
+    
+}
+#list-items{
+    font-size: 12px;
+    position: relative;
+    top: 30px;
+}
+.bill {
+    position: relative;
+    right: 15px;
+}
+.year {
+    position: relative;
+    left: 10px;
+}
+#list-items button {
+    position: relative;
+    left: 20px;
+    border-radius: 10px;
+    border:2px solid white;
+    height: 20px;
+}
+.short-text{
+    display: none;
+}
+ul#items li{
+    list-style: none;
+    position: relative;
+    right: 150px;
+    top: 10px;
+}
+.trial {
+    display: inline-block;
+    position: relative;
+    bottom: 65px;
+    left: 120px;
+    font-size: 12px;
+    border-radius: 20px;
+    width: 150px;
+    height: 35px;
+    background-color: hsl(227, 35%, 25%);
+    color:  hsl(226, 100%, 87%);
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+}
+a {
+    text-decoration: none;
+    color: hsl(15, 100%, 70%)
+}
+img {
+    position: relative;
+    left: -10px;
+}
+.website {
+    position: relative;
+    left: -186px;
+    font-size: 13px;
+    line-height: 2.5em;
+}
+.data {
+    position: relative;
+    left: -180px;
+    font-size: 13px;
+    line-height: 2.5em;
+}
+.email {
+    position: relative;
+    left: -205px;
+    font-size: 13px;
+    line-height: 2.5em;
+}
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid whitesmoke;
+    position: relative;
+    top: 5px;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 700px) {
+    
+    .main-container{
+        width: 300px;
+        height: 430px;  
+
+    }
+    .simple {
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    .sign {
+        max-width: 200px;
+        font-size: 13px;
+        margin: auto;
+        margin-top: 5px;
+    }
+    .page{
+        position: relative;
+        top: 25px;
+        padding-left: 39px;
+        font-size: 12px;
+        letter-spacing: 2px;
+        font-weight: 600;
+    }
+    .slidecontainer {
+        position: relative;
+        bottom: 105px;
+        left: 20px;
+    }
+    .slider{
+        width: 85%;
+    }
+    .dollar {
+        position: relative;
+        top: 50px;
+    }
+    .month{
+        position: relative;
+        bottom: 30px;
+        left: 80px;
+    }
+    #list-items {
+        position: relative;
+        top: 90px;
+        left: 10px;
+        font-size: 10px;
+    }
+    #list-items button {
+        display: none;
+    }
+    .bill {
+        position: relative;
+        right: 11px;
+    }
+    .year {
+        position: relative;
+        left: -4px;
+    }
+    .switch{
+        position: relative;
+        right: 7px;
+    }
+    .short-text {
+        display: inline-block;
+        border-radius: 10px;
+        border: 3px solid white;
+        height: 20px;
+        width: 40px;
+        position: relative;
+        left: -5px;
+    }
+    #items {
+        position: relative;
+        left: 160px;
+        bottom: 10px;
+    }
+    .trial {
+        position: relative;
+        top: 8px;
+        left: -7px;
+    }
+
+  }
