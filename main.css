@@ -130,7 +130,7 @@ input:checked + .round:before {
   transform: translateX(26px);
 }
 
-/* Rounded sliders */
+
 .round {
   border-radius: 34px;
 }
@@ -268,7 +268,9 @@ hr {
     .main-container{
         width: 300px;
         height: 430px;  
-
+        position: fixed;
+        top: 20%;
+        right: 10%;
     }
     .simple {
         font-size: 22px;
